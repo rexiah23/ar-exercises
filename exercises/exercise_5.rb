@@ -8,3 +8,8 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+total_revenue = Store.sum("annual_revenue")
+puts Store.average("annual_revenue")
+
+puts Store.where()
