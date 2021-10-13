@@ -10,3 +10,7 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+print "whats the name of the store?"
+answer = gets.chomp
+@new_store = Store.create(name: answer)
+Rails.logger.info(@new_store.errors.inspect)
